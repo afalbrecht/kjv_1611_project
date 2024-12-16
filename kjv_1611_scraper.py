@@ -148,6 +148,7 @@ def fetch_kjv_1611_verses():
                                         king_james = True
                                 if not king_james:
                                     f.write(f"{book} {chapter}:{verses_found + 1} {cleaned_verse}\n")
+                                    # f.write(f"{cleaned_verse}\n")
                                     total_verses += 1
                                     verses_found += 1
 
