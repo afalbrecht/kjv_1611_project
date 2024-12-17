@@ -15,7 +15,7 @@ def clean_verse_text(text):
     text = re.sub(r'\s+', ' ', text).strip()
     
     # Remove website metadata and navigation text
-    text = re.sub(r'(Home|Interlinear|Parallel|Analysis|Library|Bible|Next Chapter|Copyright|Terms of Use|Privacy Policy).*', '', text, flags=re.IGNORECASE)
+    # text = re.sub(r'(Home|Interlinear|Parallel|Analysis|Library|Bible|Next Chapter|Copyright|Terms of Use|Privacy Policy).*', '', text, flags=re.IGNORECASE)
     
     return text
 
